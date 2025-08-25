@@ -1,0 +1,123 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:none;
+    background-color: rgb(202, 214, 147);
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #7ea07f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  nav {
+    background-color: #99ce6f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 10px;
+    background-color: #78c496;
+    border-radius: 15px;
+    font-weight: bold;
+  }
+  .home {
+    color: #85cdcf;
+    background-color:#78c496;
+  }
+  .my_personal_info {
+      color: #85cdcf;
+      background-color:#78c496;
+  }
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  .about-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius:25px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  }
+  .subscribe-section {
+    background-color: white;
+    padding: 20px;
+    border-radius:25px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  }
+  .subscribe-btn {
+    background-color: #F0F0F0;
+    color: black;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .update-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .delete-btn {
+    background-color: #FF3838;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .edit-btn {
+    background-color: #1AA8FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .btn-container button {
+    margin: 5px;
+  }
+  table {
+      border-collapse: collapse;
+      width: 100%;
+  }
+  th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid rgba(36, 109, 34, 0.925);
+      border-color: rgba(66, 119, 73, 0.925);
+  }
+  th {
+      background-color: rgba(30, 126, 27, 0.562);
+  }
